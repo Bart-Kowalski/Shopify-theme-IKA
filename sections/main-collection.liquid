@@ -257,7 +257,7 @@
                         {% if colorIndex == 1 or imageCountForColor >= 1 %}
 
                         
-                        {%- render 'product-item', product: product, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition -%}
+                        {%- render 'product-item', product: product, variant: variant, collection: collection, block: block, sizes_attribute: sizes_attribute, reveal: settings.stagger_products_apparition -%}
                     {% endif %}
                   {%- endfor -%}
               </div>
