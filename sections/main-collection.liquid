@@ -242,7 +242,7 @@
                                 {% assign imageCountForColor = 0 %}
                                 {% for media in product.media %}
                                     {%- if media.alt contains '#' -%}
-                                        {%- assign altName = media.alt | split: '#' -%}
+                                        {%- assign altName = media.alt | split: '_' -%}
                                             {% if variantColor == altName %}
                                                 {% assign imageCountForColor = imageCountForColor | downcase %}
                                             {% endif %}
