@@ -32,7 +32,7 @@
     "color_swatch_config": "Blue:#527ceb\nCzarny:#527ceb\nNiebieski:#527ceb",
     "show_vendor": false,
     "show_secondary_image": true,
-    "product_add_to_cart": false,
+    "product_add_to_cart": true,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_image_size": "natural",
